@@ -1,0 +1,7 @@
+name: oldie_but_a_goodie
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=2.7
+prefix: /Users/tiffany/opt/miniconda3/envs/oldie_but_a_goodie

@@ -9,7 +9,7 @@ A repository to practice creating conda environments.
 
 1. Clone this GitHub repository
 
-2. In the terminal, navigate to the root of the repository and run: `conda env create --file environment.yaml`
+2. In the terminal, navigate to the root of the repository and run: `conda env create --file environment.yml`
 
 3. Activate the environment by typing `conda activate oldie_but_a_goodie` 
 
