@@ -1,6 +1,8 @@
 # conda_env_practice
 A repository to practice creating conda environments.
 
+*Disclaimer - this will not work for M1/ARM Mac's as conda-forge stopped supporting Python 2.7 a few years back...*
+
 ## Dependencies
 
 - `conda` (recommended installation via [Miniconda](https://docs.conda.io/en/latest/miniconda.html)).
