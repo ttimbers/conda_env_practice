@@ -1,8 +1,6 @@
 # conda_env_practice
 A repository to practice creating conda environments.
 
-*Disclaimer - this will not work for M1/ARM Mac's as conda-forge stopped supporting Python 2.7 a few years back...*
-
 ## Dependencies
 
 - `conda` (recommended installation via [Miniconda](https://docs.conda.io/en/latest/miniconda.html)).
@@ -15,7 +13,7 @@ Create an environment on your laptop with an older version of Python!
 
 2. Try to run some antiquated (Python 2.7 and lower compatible) Python code, such as `python -c "print 'Back from the Future'"`. This should fail.
 
-3. In the terminal, navigate to the root of the repository and run: `conda env create --file environment.yml`
+3. In the terminal, navigate to the root of the repository and run: `conda env create --file environment.yml` (note: If you have a M1/M2 Mac, please run this command instead: `CONDA_SUBDIR=osx-64 conda env create --file environment.yml`).
 
 4. Activate the environment by typing `conda activate oldie_but_a_goodie` 
 
